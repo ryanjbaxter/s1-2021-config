@@ -34,6 +34,9 @@ spring:
   config:
     activate:
       on-cloud-platform: kubernetes
+  cloud:
+    kubernetes:
+      enabled: true
 
 eureka:
   client:
