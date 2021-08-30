@@ -2,6 +2,10 @@ management:
   endpoint:
     chaosmonkey:
       enabled: true
+    restart:
+      enabled: true
+    health:
+      show-details: always
   endpoints:
     web:
       exposure:
