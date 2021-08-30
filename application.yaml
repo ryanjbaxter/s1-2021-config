@@ -13,7 +13,8 @@ chaos:
       restController: true
       service: false
     assaults:
-      latency-active: false
+      level: 3
+      latency-active: true
 spring:
   profiles:
     active: chaos-monkey
