@@ -18,6 +18,9 @@ chaos:
 spring:
   profiles:
     active: chaos-monkey
+  cloud:
+    kubernetes:
+      enabled: false
 
 eureka:
   client:
