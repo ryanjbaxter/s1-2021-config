@@ -7,14 +7,14 @@ management:
     health:
       show-details: always
     env:
-      show-values: always
+      show-values: never
   endpoints:
     web:
       exposure:
         include: '*'
 chaos:
   monkey:
-    enabled: true
+    enabled: false
     watcher:
       restController: true
       service: false
