@@ -6,13 +6,15 @@ management:
       enabled: true
     health:
       show-details: always
+    env:
+      show-values: always
   endpoints:
     web:
       exposure:
         include: '*'
 chaos:
   monkey:
-    enabled: false
+    enabled: true
     watcher:
       restController: true
       service: false
