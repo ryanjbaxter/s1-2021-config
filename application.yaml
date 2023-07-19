@@ -7,7 +7,7 @@ management:
     health:
       show-details: always
     env:
-      show-values: always
+      show-values: never
   endpoints:
     web:
       exposure:
