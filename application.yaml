@@ -6,8 +6,8 @@ management:
       enabled: true
     health:
       show-details: always
-    # env:
-    #   show-values: never
+    env:
+      show-values: never
   endpoints:
     web:
       exposure:
